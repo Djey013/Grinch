@@ -46,7 +46,7 @@ public class Grinch : MonoBehaviour
             {
                 _animator.SetTrigger("IsCaught");
                 
-                yield return new WaitForSeconds(1f);
+                yield return new WaitForSeconds(0.3f);
                 other.gameObject.SetActive(false);
                 _sc.catched++;
                 stealStatut = true;
@@ -68,6 +68,22 @@ public class Grinch : MonoBehaviour
 
 
 /*
+ ----------------------------------------------------------------------------------------------------
+ StartCoroutine(DelayAnim());
+
+        IEnumerator DelayAnim()
+        {
+            if (other.gameObject.CompareTag("Gift") && !stealStatut)
+            {
+                _animator.SetTrigger("IsCaught");
+                
+                yield return new WaitForSeconds(0f);
+                other.gameObject.SetActive(false);
+                _sc.catched++;
+                stealStatut = true;
+            }
+ 
+ 
  ----------------------------------------------------------------------------------------------------
  if (Input.GetAxis("Horizontal") !=0)
         {
