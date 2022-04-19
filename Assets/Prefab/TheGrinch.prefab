@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7321196081793717159}
   - component: {fileID: 8448960344119977296}
   - component: {fileID: 1577718050728645061}
+  - component: {fileID: -7069981023448513479}
   m_Layer: 0
   m_Name: TheGrinch
   m_TagString: Untagged
@@ -119,3 +120,29 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &-7069981023448513479
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4880433259614915828}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.05301407, y: -0.2668376}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.57, y: 1.19}
+    newSize: {x: 0.57, y: 1.19}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.4639719, y: 0.65632486}
+  m_EdgeRadius: 0

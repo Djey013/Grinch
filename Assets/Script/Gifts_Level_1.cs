@@ -30,8 +30,11 @@ public class Gifts_Level_1 : MonoBehaviour
                 yield return new WaitForSeconds(5f);
                 giftsDrop[4].SetActive(true);               // chrono = 35 secondes
 
+                yield return new WaitForSeconds(5f);
+                giftsDrop[5].SetActive(true);               // chrono = 40 secondes
+                
                 yield return new WaitForSeconds(10f);
-                giftsDrop[5].SetActive(true);               // chrono = 45 secondes
+                giftsDrop[6].SetActive(true);               // chrono = 45 secondes
 
                 break;
             } 

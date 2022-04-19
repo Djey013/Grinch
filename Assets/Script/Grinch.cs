@@ -6,37 +6,47 @@ using UnityEngine;
 public class Grinch : MonoBehaviour
 {
     public MyScriptableObject persistent;
-
+    public CountDown _countDown;
+    
     public Score _sc;
     public Chest _ch;
     private Animator _animator;
-    
+    public GameObject timePenaltyMessage;
     
     public bool stealStatut = false;
-
-
+    
+   
     private void Start()
     {
         _animator = this.GetComponent<Animator>();
+       
     }
 
     void Update()
     {
                 
-            if (Input.GetKeyDown(KeyCode.RightArrow) && transform.position.x < 4)
-            {
-                transform.position = transform.position + new Vector3(4, 0, 0);               
-            }
+         if (Input.GetKeyDown(KeyCode.RightArrow) && transform.position.x < 4)
+         {
+             transform.position = transform.position + new Vector3(4, 0, 0);
+             _animator.SetTrigger("IsWalking");
+             //gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                         
+         }
 
+
+         if (Input.GetKeyDown(KeyCode.LeftArrow) && transform.position.x > -7)
+         {
+             transform.position = transform.position + new Vector3(-4, 0, 0);
+             _animator.SetTrigger("IsWalking");
+             //gameObject.GetComponent<SpriteRenderer>().flipX = true;
+             
+         }
             
-            if (Input.GetKeyDown(KeyCode.LeftArrow) && transform.position.x > -7)
-            {
-                transform.position = transform.position + new Vector3(-4, 0, 0);
-            }
                     
     }
 
-    public void OnCollisionEnter2D(Collision2D other)
+    
+    public void OnTriggerEnter2D(Collider2D other)
     {
         StartCoroutine(DelayAnim());
 
@@ -46,7 +56,7 @@ public class Grinch : MonoBehaviour
             {
                 _animator.SetTrigger("IsCaught");
                 
-                yield return new WaitForSeconds(0.3f);
+                yield return new WaitForSeconds(0.2f);
                 other.gameObject.SetActive(false);
                 _sc.catched++;
                 stealStatut = true;
@@ -57,13 +67,21 @@ public class Grinch : MonoBehaviour
                 persistent.chested++;
                 stealStatut = false;
             }
+
+            if (other.gameObject.CompareTag("Dark Gift") && !stealStatut)
+            {
+                yield return new WaitForSeconds(0.2f);
+                _countDown.timeRemaining -= 10f;
+                timePenaltyMessage.SetActive(true);
+                other.gameObject.SetActive(false);
+                
+                yield return new WaitForSeconds(2f);
+                timePenaltyMessage.SetActive(false);
+            }
         }
         
     }
-
     
-
-
 }
 
 

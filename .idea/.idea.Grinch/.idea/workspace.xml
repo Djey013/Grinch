@@ -3,15 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="49dbc689-43a0-48ff-ab2c-7e3df8ef29b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/Grinch Get Kdos.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/Grinch Get Kdos.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/Grinch_Get_KDO.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/Grinch_Get_KDO.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/Grinch_Get_KDO_0.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/Grinch_Get_KDO_0.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/TheGrinch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Grinch/TheGrinch.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/TheGrinch_Get_Kdos.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/TheGrinch_Get_Kdos.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/TheGrinch_Get_Kdos_0.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/TheGrinch_Get_Kdos_0.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/IdleWalk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/IdleWalk/Grinch_Walk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/IdleWalk/Grinch_Walk.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/IdleWalk/Grinch_Walk_0.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/IdleWalk/Grinch_Walk_0.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/IdleWalk/IdleWalk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/IdleWalk/IdleWalk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/TheGrinch.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/TheGrinch.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Gifts_Level_1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Gifts_Level_1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Grinch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Grinch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/ScriptableObject/Data Table.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/ScriptableObject/Data Table.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +77,9 @@
       <workItem from="1643189771933" duration="186000" />
       <workItem from="1647349891719" duration="9000" />
       <workItem from="1650042697093" duration="612000" />
+      <workItem from="1650209665190" duration="8370000" />
+      <workItem from="1650222660610" duration="3319000" />
+      <workItem from="1650287629880" duration="8912000" />
     </task>
     <servers />
   </component>
