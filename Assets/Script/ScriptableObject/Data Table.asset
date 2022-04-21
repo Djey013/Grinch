@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c9f7265629775b4d97e57343c583d2f, type: 3}
   m_Name: Data Table
   m_EditorClassIdentifier: 
-  chested: 0
+  chested: 3
   vie: 3

@@ -29,7 +29,7 @@ public class Grinch : MonoBehaviour
          {
              transform.position = transform.position + new Vector3(4, 0, 0);
              _animator.SetTrigger("IsWalking");
-             //gameObject.GetComponent<SpriteRenderer>().flipX = true;
+             gameObject.GetComponent<SpriteRenderer>().flipX = false;
                          
          }
 
@@ -38,7 +38,7 @@ public class Grinch : MonoBehaviour
          {
              transform.position = transform.position + new Vector3(-4, 0, 0);
              _animator.SetTrigger("IsWalking");
-             //gameObject.GetComponent<SpriteRenderer>().flipX = true;
+             gameObject.GetComponent<SpriteRenderer>().flipX = true;
              
          }
             

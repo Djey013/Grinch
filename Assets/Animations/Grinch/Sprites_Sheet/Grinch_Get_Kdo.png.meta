@@ -1,49 +1,55 @@
 fileFormatVersion: 2
-guid: fb7417555017e124daad8cdcc10f6867
+guid: 159b7fa54a4547e45aeb0f08019196ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1568162738971285411
-    second: The_Walking_Grinch_0
+      213: 2880542133166279027
+    second: Grinch_Get_Kdo_0
   - first:
-      213: 9097023874096303615
-    second: The_Walking_Grinch_1
+      213: 1144711181615688585
+    second: Grinch_Get_Kdo_1
   - first:
-      213: 3604548548591283777
-    second: The_Walking_Grinch_2
+      213: -960415402614048883
+    second: Grinch_Get_Kdo_2
   - first:
-      213: 8625104070095936824
-    second: The_Walking_Grinch_3
+      213: 1589167674553257138
+    second: Grinch_Get_Kdo_3
   - first:
-      213: -7579556914110642445
-    second: The_Walking_Grinch_4
+      213: -7518965980861182983
+    second: Grinch_Get_Kdo_4
   - first:
-      213: 6573752402732610477
-    second: The_Walking_Grinch_5
+      213: 8856607282500469379
+    second: Grinch_Get_Kdo_5
   - first:
-      213: -3449551716971932803
-    second: The_Walking_Grinch_6
+      213: -7745193100625885646
+    second: Grinch_Get_Kdo_6
   - first:
-      213: 2491484083569430575
-    second: The_Walking_Grinch_7
+      213: 1451121484105943206
+    second: Grinch_Get_Kdo_7
   - first:
-      213: 8769691909914556343
-    second: The_Walking_Grinch_8
+      213: -1031674230478756240
+    second: Grinch_Get_Kdo_8
   - first:
-      213: -2800896218077171437
-    second: The_Walking_Grinch_9
+      213: -8539913522644561406
+    second: Grinch_Get_Kdo_9
   - first:
-      213: -5013827687250789969
-    second: The_Walking_Grinch_10
+      213: 8429221409651644228
+    second: Grinch_Get_Kdo_10
   - first:
-      213: 8469906830785236408
-    second: The_Walking_Grinch_11
+      213: -4753989080055339318
+    second: Grinch_Get_Kdo_11
   - first:
-      213: 7400554209465193413
-    second: The_Walking_Grinch_12
+      213: -6524606275928491466
+    second: Grinch_Get_Kdo_12
   - first:
-      213: -637377714223951430
-    second: The_Walking_Grinch_13
+      213: -2330313470137205620
+    second: Grinch_Get_Kdo_13
+  - first:
+      213: -8834097415700006994
+    second: Grinch_Get_Kdo_14
+  - first:
+      213: 8781973228165105448
+    second: Grinch_Get_Kdo_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -129,299 +135,353 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: The_Walking_Grinch_0
+      name: Grinch_Get_Kdo_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 4
         y: 0
-        width: 50
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 39
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d58ec912c44cc3ae0800000000000000
-      internalID: -1568162738971285411
+      spriteID: 3790cefeecdb9f720800000000000000
+      internalID: 2880542133166279027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The_Walking_Grinch_1
+      name: Grinch_Get_Kdo_1
       rect:
         serializedVersion: 2
-        x: 54
+        x: 93
         y: 0
-        width: 50
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 44
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffd02c0f30f1f3e70800000000000000
-      internalID: 9097023874096303615
+      spriteID: 98bee9631c4d2ef00800000000000000
+      internalID: 1144711181615688585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The_Walking_Grinch_2
+      name: Grinch_Get_Kdo_2
       rect:
         serializedVersion: 2
-        x: 106
+        x: 186
         y: 0
-        width: 56
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 43
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14eee66aecde50230800000000000000
-      internalID: 3604548548591283777
+      spriteID: d873062a74beba2f0800000000000000
+      internalID: -960415402614048883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The_Walking_Grinch_3
+      name: Grinch_Get_Kdo_3
       rect:
         serializedVersion: 2
-        x: 165
+        x: 280
         y: 0
-        width: 56
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 37
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83d18d8347682b770800000000000000
-      internalID: 8625104070095936824
+      spriteID: 2bcc74a849bdd0610800000000000000
+      internalID: 1589167674553257138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The_Walking_Grinch_4
+      name: Grinch_Get_Kdo_4
       rect:
         serializedVersion: 2
-        x: 225
+        x: 376
         y: 0
-        width: 60
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 45
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f64493152100d690800000000000000
-      internalID: -7579556914110642445
+      spriteID: 9fbc580174447a790800000000000000
+      internalID: -7518965980861182983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The_Walking_Grinch_5
+      name: Grinch_Get_Kdo_5
       rect:
         serializedVersion: 2
-        x: 286
-        y: 0
-        width: 56
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 469
+        y: 1
+        width: 74
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da37f362bf8aa3b50800000000000000
-      internalID: 6573752402732610477
+      spriteID: 382049c266df8ea70800000000000000
+      internalID: 8856607282500469379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The_Walking_Grinch_6
+      name: Grinch_Get_Kdo_6
       rect:
         serializedVersion: 2
-        x: 346
-        y: 0
-        width: 56
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 557
+        y: 1
+        width: 81
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d739c8b6dfab020d0800000000000000
-      internalID: -3449551716971932803
+      spriteID: 236436829eb838490800000000000000
+      internalID: -7745193100625885646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The_Walking_Grinch_7
+      name: Grinch_Get_Kdo_7
       rect:
         serializedVersion: 2
-        x: 407
+        x: 647
         y: 0
-        width: 53
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 75
+        height: 109
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2012b4d297839220800000000000000
-      internalID: 2491484083569430575
+      spriteID: 6a8821a2d4b632410800000000000000
+      internalID: 1451121484105943206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The_Walking_Grinch_8
+      name: Grinch_Get_Kdo_8
       rect:
         serializedVersion: 2
-        x: 465
+        x: 740
         y: 0
-        width: 55
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 76
+        height: 105
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b7f218045434b970800000000000000
-      internalID: 8769691909914556343
+      spriteID: 076a360e0c1cea1f0800000000000000
+      internalID: -1031674230478756240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The_Walking_Grinch_9
+      name: Grinch_Get_Kdo_9
       rect:
         serializedVersion: 2
-        x: 523
+        x: 827
         y: 0
-        width: 55
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 82
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31176ccbab73129d0800000000000000
-      internalID: -2800896218077171437
+      spriteID: 2025736c5e12c7980800000000000000
+      internalID: -8539913522644561406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The_Walking_Grinch_10
+      name: Grinch_Get_Kdo_10
       rect:
         serializedVersion: 2
-        x: 578
+        x: 921
         y: 0
-        width: 58
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 83
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa9f568684e4b6ab0800000000000000
-      internalID: -5013827687250789969
+      spriteID: 447576f463c9af470800000000000000
+      internalID: 8429221409651644228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The_Walking_Grinch_11
+      name: Grinch_Get_Kdo_11
       rect:
         serializedVersion: 2
-        x: 635
+        x: 1013
         y: 0
-        width: 61
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 79
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bdcb9913672b8570800000000000000
-      internalID: 8469906830785236408
+      spriteID: ac627319e10760eb0800000000000000
+      internalID: -4753989080055339318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The_Walking_Grinch_12
+      name: Grinch_Get_Kdo_12
       rect:
         serializedVersion: 2
-        x: 698
+        x: 1105
         y: 0
-        width: 56
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 63
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c3d13cf7dc04b660800000000000000
-      internalID: 7400554209465193413
+      spriteID: 63a7fff2921f375a0800000000000000
+      internalID: -6524606275928491466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: The_Walking_Grinch_13
+      name: Grinch_Get_Kdo_13
       rect:
         serializedVersion: 2
-        x: 756
+        x: 1200
         y: 0
-        width: 61
-        height: 67
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 47
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab15eeb88549727f0800000000000000
-      internalID: -637377714223951430
+      spriteID: c8cf925de3019afd0800000000000000
+      internalID: -2330313470137205620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grinch_Get_Kdo_14
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 0
+        width: 44
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7310a943bf66580800000000000000
+      internalID: -8834097415700006994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grinch_Get_Kdo_15
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 0
+        width: 39
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82785c34f16dfd970800000000000000
+      internalID: 8781973228165105448
       vertices: []
       indices: 
       edges: []
