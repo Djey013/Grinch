@@ -12,6 +12,10 @@ public class Grinch : MonoBehaviour
     public Chest _ch;
     private Animator _animator;
     public GameObject timePenaltyMessage;
+    public GameObject pouch;
+    
+    public Vector3 rightPouchPosition = new Vector3(5f,5f,0f);
+    public Vector3 leftPouchPosition = new Vector3(5f,5f,0f);
     
     public bool stealStatut = false;
     
@@ -30,7 +34,9 @@ public class Grinch : MonoBehaviour
              transform.position = transform.position + new Vector3(4, 0, 0);
              _animator.SetTrigger("IsWalking");
              gameObject.GetComponent<SpriteRenderer>().flipX = false;
-                         
+             pouch.transform.position = gameObject.transform.position + rightPouchPosition;
+
+
          }
 
 
@@ -39,7 +45,8 @@ public class Grinch : MonoBehaviour
              transform.position = transform.position + new Vector3(-4, 0, 0);
              _animator.SetTrigger("IsWalking");
              gameObject.GetComponent<SpriteRenderer>().flipX = true;
-             
+             pouch.transform.position = gameObject.transform.position + leftPouchPosition;
+
          }
             
                     
@@ -59,12 +66,14 @@ public class Grinch : MonoBehaviour
                 yield return new WaitForSeconds(0.2f);
                 other.gameObject.SetActive(false);
                 _sc.catched++;
+                pouch.SetActive(true);
                 stealStatut = true;
             }
 
             if (other.gameObject.CompareTag("Chest") && stealStatut)
             {
                 persistent.chested++;
+                pouch.SetActive(false);
                 stealStatut = false;
             }
 
