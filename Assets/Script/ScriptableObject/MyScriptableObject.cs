@@ -12,6 +12,4 @@ public class MyScriptableObject : ScriptableObject
 
 
 
-
-
 }

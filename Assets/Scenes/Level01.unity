@@ -1318,7 +1318,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.7756176
+  orthographic size: 5.47
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1452,7 +1452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4287756907643813792, guid: 07ed80a6cfd94b64ea2e5a672c5be6b4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.0135326
+      value: -4.01
       objectReference: {fileID: 0}
     - target: {fileID: 4287756907643813792, guid: 07ed80a6cfd94b64ea2e5a672c5be6b4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2025,6 +2025,7 @@ MonoBehaviour:
   persistent: {fileID: 11400000, guid: 0ff8f97fe6ec214498b2975ca635a9cf, type: 2}
   board2: {fileID: 908300074}
   _animator: {fileID: 609152288}
+  _grinch: {fileID: 1653316573}
 --- !u!95 &609152288
 Animator:
   serializedVersion: 3
@@ -2195,6 +2196,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1637686100433110699, guid: 9b66150addef88343b888b2e83e6b77f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1845232670865747093, guid: 9b66150addef88343b888b2e83e6b77f, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2238,6 +2243,10 @@ PrefabInstance:
     - target: {fileID: 1845232670865747093, guid: 9b66150addef88343b888b2e83e6b77f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948685919946575876, guid: 9b66150addef88343b888b2e83e6b77f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b66150addef88343b888b2e83e6b77f, type: 3}
@@ -3073,6 +3082,7 @@ MonoBehaviour:
   persistent: {fileID: 11400000, guid: 0ff8f97fe6ec214498b2975ca635a9cf, type: 2}
   board2: {fileID: 908300074}
   _animator: {fileID: 0}
+  _grinch: {fileID: 0}
 --- !u!114 &908300074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4822,7 +4832,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5292707146656463904, guid: a915e4561c5ded5418a26deeaebb772d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.2087
+      value: -3.22
       objectReference: {fileID: 0}
     - target: {fileID: 5292707146656463904, guid: a915e4561c5ded5418a26deeaebb772d, type: 3}
       propertyPath: m_LocalPosition.z

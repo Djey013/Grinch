@@ -66,7 +66,10 @@ public class Grinch : MonoBehaviour
                 yield return new WaitForSeconds(0.2f);
                 other.gameObject.SetActive(false);
                 _sc.catched++;
+                
+                yield return new WaitForSeconds(0.6f);
                 pouch.SetActive(true);
+                
                 stealStatut = true;
             }
 

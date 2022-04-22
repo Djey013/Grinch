@@ -9,11 +9,13 @@ public class Chest : MonoBehaviour
     public MyScriptableObject persistent;
     public Text board2;
     public Animator _animator;
+    public Grinch _grinch;
 
 
     private void Start()
     {
         _animator = this.GetComponent<Animator>();
+        persistent.chested = 0;
     }
 
     public void Update()
@@ -32,8 +34,9 @@ public class Chest : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && _grinch.stealStatut)
         {
+            
             _animator.SetTrigger("IsOpen");
 
         }
