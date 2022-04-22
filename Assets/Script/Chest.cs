@@ -18,7 +18,7 @@ public class Chest : MonoBehaviour
 
     public void Update()
     {
-        //ChestBoard();
+        ChestBoard();
     }
     
 

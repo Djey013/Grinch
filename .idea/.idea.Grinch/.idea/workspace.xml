@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="49dbc689-43a0-48ff-ab2c-7e3df8ef29b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Chests/OpenChest.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Chests/OpenChest.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Chests/OpenChest_0.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Chests/OpenChest_0.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Stealing/Stealing.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Grinch/Stealing/Stealing.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Chest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Chest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/ScriptableObject/Data Table.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/ScriptableObject/Data Table.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +22,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34991798" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -37,10 +32,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="27580">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="27580" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -74,7 +69,8 @@
       <workItem from="1650287629880" duration="8912000" />
       <workItem from="1650542068336" duration="3764000" />
       <workItem from="1650611704591" duration="2178000" />
-      <workItem from="1650614939199" duration="317000" />
+      <workItem from="1650614939199" duration="743000" />
+      <workItem from="1650617710784" duration="609000" />
     </task>
     <servers />
   </component>
@@ -95,10 +91,10 @@
           <line>34</line>
           <properties documentPath="D:\JeremyVernagallo\Unity\Grinch\Assets\Script\Chest.cs" initialLine="34" containingFunctionPresentation="method 'OnTriggerEnter2D'">
             <startOffsets>
-              <option value="578" />
+              <option value="576" />
             </startOffsets>
             <endOffsets>
-              <option value="620" />
+              <option value="618" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
