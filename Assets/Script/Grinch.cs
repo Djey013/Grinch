@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Grinch : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class Grinch : MonoBehaviour
     public Chest _ch;
     private Animator _animator;
     public GameObject timePenaltyMessage;
+    public GameObject lifeLostMessage;
+    public Text lifeCount;
     public GameObject pouch;
     
     public Vector3 rightPouchPosition = new Vector3(5f,5f,0f);
@@ -23,7 +26,8 @@ public class Grinch : MonoBehaviour
     private void Start()
     {
         _animator = this.GetComponent<Animator>();
-       
+        persistent.vie = 3;
+
     }
 
     void Update()
@@ -35,8 +39,7 @@ public class Grinch : MonoBehaviour
              _animator.SetTrigger("IsWalking");
              gameObject.GetComponent<SpriteRenderer>().flipX = false;
              pouch.transform.position = gameObject.transform.position + rightPouchPosition;
-
-
+            
          }
 
 
@@ -48,8 +51,9 @@ public class Grinch : MonoBehaviour
              pouch.transform.position = gameObject.transform.position + leftPouchPosition;
 
          }
-            
-                    
+         
+         LifeBoard();
+         
     }
 
     
@@ -91,10 +95,25 @@ public class Grinch : MonoBehaviour
                 yield return new WaitForSeconds(2f);
                 timePenaltyMessage.SetActive(false);
             }
+            
+            if (other.gameObject.CompareTag("Bomb") && !stealStatut)
+            {
+                yield return new WaitForSeconds(0.2f);
+                persistent.vie--;
+                lifeLostMessage.SetActive(true);
+                other.gameObject.SetActive(false);
+                
+                yield return new WaitForSeconds(2f);
+                lifeLostMessage.SetActive(false);
+            }
         }
         
     }
     
+    public void LifeBoard()
+    {
+        lifeCount.text = " " + persistent.vie;
+    }
 }
 
 

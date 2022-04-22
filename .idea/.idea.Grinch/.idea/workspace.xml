@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="49dbc689-43a0-48ff-ab2c-7e3df8ef29b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/End_Credit.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/End_Credit.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level02.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level02.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Grinch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Grinch.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +75,7 @@
       <workItem from="1650542068336" duration="3764000" />
       <workItem from="1650611704591" duration="2178000" />
       <workItem from="1650614939199" duration="743000" />
-      <workItem from="1650617710784" duration="12253000" />
+      <workItem from="1650617710784" duration="14223000" />
     </task>
     <servers />
   </component>
