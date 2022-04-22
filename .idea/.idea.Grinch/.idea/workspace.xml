@@ -3,22 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="49dbc689-43a0-48ff-ab2c-7e3df8ef29b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/TheGrinch_Get_Kdos.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/TheGrinch_Get_Kdos.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/TheGrinch_Get_Kdos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/TheGrinch_Get_Kdos.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/TheGrinch_Get_Kdos_0.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Grinch Get Kdos/TheGrinch_Get_Kdos_0.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/TheGrinch.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Grinch/TheGrinch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/TheGrinch.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Grinch/TheGrinch.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Walking_Grinch.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Walking_Grinch/The_Walking_Grinch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Walking_Grinch/The_Walking_Grinch.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Walking_Grinch/Walking.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Walking_Grinch/Walking.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Chests/OpenChest.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Chests/OpenChest.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Chests/OpenChest_0.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Chests/OpenChest_0.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Stealing/Stealing.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Grinch/Stealing/Stealing.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Grinch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Grinch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Chest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Chest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/ScriptableObject/Data Table.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/ScriptableObject/Data Table.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,11 +36,11 @@
     <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="27580">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="27580" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -80,7 +72,9 @@
       <workItem from="1650209665190" duration="8370000" />
       <workItem from="1650222660610" duration="3319000" />
       <workItem from="1650287629880" duration="8912000" />
-      <workItem from="1650542068336" duration="3438000" />
+      <workItem from="1650542068336" duration="3764000" />
+      <workItem from="1650611704591" duration="2178000" />
+      <workItem from="1650614939199" duration="317000" />
     </task>
     <servers />
   </component>
@@ -92,5 +86,24 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Script/Chest.cs</url>
+          <line>34</line>
+          <properties documentPath="D:\JeremyVernagallo\Unity\Grinch\Assets\Script\Chest.cs" initialLine="34" containingFunctionPresentation="method 'OnTriggerEnter2D'">
+            <startOffsets>
+              <option value="578" />
+            </startOffsets>
+            <endOffsets>
+              <option value="620" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -18,7 +18,7 @@ public class Chest : MonoBehaviour
 
     public void Update()
     {
-        ChestBoard();
+        //ChestBoard();
     }
     
 
@@ -27,13 +27,14 @@ public class Chest : MonoBehaviour
         board2.text = " " + persistent.chested;
     }
 
+    
 
-    public void OnCollisionEnter2D(Collision2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
-
+        
         if (other.gameObject.CompareTag("Player"))
         {
-            _animator.SetTrigger("Open");
+            _animator.SetTrigger("IsOpen");
 
         }
 

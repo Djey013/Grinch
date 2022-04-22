@@ -1912,10 +1912,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.7475053, y: 0}
+  m_Offset: {x: -1.4846625, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1926,29 +1926,23 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.7750113, y: 2.56}
+  m_Size: {x: 1.3006968, y: 2.56}
   m_EdgeRadius: 0
---- !u!50 &609152287
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &609152287
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609152283}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 3
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fef05bd1998d6e408e1fc9d953c343a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  persistent: {fileID: 0}
+  board2: {fileID: 0}
+  _animator: {fileID: 609152288}
 --- !u!95 &609152288
 Animator:
   serializedVersion: 3
@@ -1959,7 +1953,7 @@ Animator:
   m_GameObject: {fileID: 609152283}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cfad3e566887a764c93daa5960e0d8f4, type: 2}
+  m_Controller: {fileID: 9100000, guid: f2412365241197342923e05bd8bdb1ee, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5009,7 +5003,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.3134867}
