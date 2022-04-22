@@ -75,6 +75,7 @@ public class Grinch : MonoBehaviour
 
             if (other.gameObject.CompareTag("Chest") && stealStatut)
             {
+                _animator.SetTrigger("IsKicked");
                 persistent.chested++;
                 pouch.SetActive(false);
                 stealStatut = false;

@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="49dbc689-43a0-48ff-ab2c-7e3df8ef29b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Grinch/Stealing/Stealing.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Grinch/Stealing/Stealing.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Gift7_Dark.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Gift7_Dark.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Chest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Chest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Santa flight/Santa Flight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Santa flight/Santa Flight.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Santa flight/Santa.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Santa flight/Santa.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Grinch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Grinch.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +72,7 @@
       <workItem from="1650542068336" duration="3764000" />
       <workItem from="1650611704591" duration="2178000" />
       <workItem from="1650614939199" duration="743000" />
-      <workItem from="1650617710784" duration="7572000" />
+      <workItem from="1650617710784" duration="9818000" />
     </task>
     <servers />
   </component>
@@ -92,13 +90,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Script/Chest.cs</url>
-          <line>35</line>
+          <line>36</line>
           <properties documentPath="D:\JeremyVernagallo\Unity\Grinch\Assets\Script\Chest.cs" initialLine="34" containingFunctionPresentation="method 'OnTriggerEnter2D'">
             <startOffsets>
-              <option value="603" />
+              <option value="635" />
             </startOffsets>
             <endOffsets>
-              <option value="668" />
+              <option value="700" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

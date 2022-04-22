@@ -37,11 +37,15 @@ public class Chest : MonoBehaviour
         if (other.gameObject.CompareTag("Player") && _grinch.stealStatut)
         {
             
-            _animator.SetTrigger("IsOpen");
+            Invoke("OpenChest",0.5f);
 
         }
 
     }
-    
+
+    public void OpenChest()
+    {
+        _animator.SetTrigger("IsOpen");
+    }
     
 }
