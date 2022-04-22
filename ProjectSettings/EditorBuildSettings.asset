@@ -12,8 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Level01.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/End_Credit.unity
+    path: Assets/Scenes/Transition_Scene.unity
     guid: a717f5bd5ee05dd49a5a59128e8f94df
+  - enabled: 1
+    path: Assets/Scenes/Level02.unity
+    guid: 2951a4913c991574a98aba29568146da
+  - enabled: 1
+    path: Assets/Scenes/End_Credits.unity
+    guid: daf1c3b4717ef3442b95696a512ce786
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: aaf2cda29a06e8849b1bf1c9009410e2, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 5a130799b31826b4ca6d17bdeca19391, type: 2}

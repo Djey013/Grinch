@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="49dbc689-43a0-48ff-ab2c-7e3df8ef29b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Santa flight/Santa Flight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Santa flight/Santa Flight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Santa flight/Santa.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Santa flight/Santa.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Grinch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Grinch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/End_Credit.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/End_Credit.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +16,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Transition_State.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -72,7 +77,7 @@
       <workItem from="1650542068336" duration="3764000" />
       <workItem from="1650611704591" duration="2178000" />
       <workItem from="1650614939199" duration="743000" />
-      <workItem from="1650617710784" duration="9818000" />
+      <workItem from="1650617710784" duration="12253000" />
     </task>
     <servers />
   </component>
@@ -82,6 +87,17 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
