@@ -9,6 +9,7 @@ public class Gifts_Level_2 : MonoBehaviour
     private Vector3 giftPOsition1 = new Vector3(-9f, 4f, 0f);
     private Vector3 giftPOsition2 = new Vector3(-5f, 4f, 0f);
     private Vector3 giftPOsition3 = new Vector3(0f, 4f, 0f);
+
    
     void Start()
     {

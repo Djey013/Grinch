@@ -22,10 +22,16 @@ public class Grinch : MonoBehaviour
     
     public bool stealStatut = false;
     
+    private AudioSource _audioSource;
+    public AudioClip pickupSound;
+    public AudioClip hitSound;
+    public AudioClip closingChest;
+
    
     private void Start()
     {
         _animator = this.GetComponent<Animator>();
+        _audioSource = GetComponent<AudioSource>();
         persistent.vie = 3;
 
     }
@@ -67,6 +73,9 @@ public class Grinch : MonoBehaviour
             {
                 _animator.SetTrigger("IsCaught");
                 
+                yield return new WaitForSeconds(0.1f);
+                _audioSource.PlayOneShot(pickupSound);
+                
                 yield return new WaitForSeconds(0.2f);
                 other.gameObject.SetActive(false);
                 _sc.catched++;
@@ -80,6 +89,13 @@ public class Grinch : MonoBehaviour
             if (other.gameObject.CompareTag("Chest") && stealStatut)
             {
                 _animator.SetTrigger("IsKicked");
+                
+                yield return new WaitForSeconds(0.1f);
+                _audioSource.PlayOneShot(hitSound);
+                
+                yield return new WaitForSeconds(0.6f);
+                _audioSource.PlayOneShot(closingChest);
+                
                 persistent.chested++;
                 pouch.SetActive(false);
                 stealStatut = false;
