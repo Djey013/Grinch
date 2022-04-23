@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="49dbc689-43a0-48ff-ab2c-7e3df8ef29b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bomb.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bomb.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level02.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level02.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Gifts_Level_1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Gifts_Level_1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Gifts_Level_3.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Gifts_Level_3.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Gifts_Level_2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Gifts_Level_2.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +72,7 @@
       <workItem from="1650611704591" duration="2178000" />
       <workItem from="1650614939199" duration="743000" />
       <workItem from="1650617710784" duration="14223000" />
-      <workItem from="1650699924881" duration="3133000" />
+      <workItem from="1650699924881" duration="11824000" />
     </task>
     <servers />
   </component>

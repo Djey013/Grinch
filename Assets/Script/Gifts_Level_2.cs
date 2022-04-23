@@ -6,6 +6,9 @@ using UnityEngine;
 public class Gifts_Level_2 : MonoBehaviour
 {
     public GameObject[] giftsDrop;
+    private Vector3 giftPOsition1 = new Vector3(-9f, 4f, 0f);
+    private Vector3 giftPOsition2 = new Vector3(-5f, 4f, 0f);
+    private Vector3 giftPOsition3 = new Vector3(0f, 4f, 0f);
    
     void Start()
     {
@@ -15,35 +18,53 @@ public class Gifts_Level_2 : MonoBehaviour
         {
             foreach(GameObject go in giftsDrop)
             {
-                yield return new WaitForSeconds(5f);
-                giftsDrop[0].SetActive(true);               // chrono = 5 secondes
-                yield return new WaitForSeconds(3f);
+                yield return new WaitForSeconds(5f);        // chrono = 5 secondes [Bomb 1/3]
+                giftsDrop[0].SetActive(true);               
+                giftsDrop[0].transform.position = giftPOsition1;
+                yield return new WaitForSeconds(4f);
                 giftsDrop[0].SetActive(false);
                 
+                yield return new WaitForSeconds(1f);        // chrono = 10 secondes [Gift 1/6]
+                giftsDrop[1].SetActive(true);               
+                giftsDrop[1].transform.position = giftPOsition2;
                 
-                yield return new WaitForSeconds(2f);
-                giftsDrop[1].SetActive(true);               // chrono = 10 secondes
+                yield return new WaitForSeconds(5f);        // chrono = 15 secondes [Gift 2/6]
+                giftsDrop[2].SetActive(true); 
+                giftsDrop[2].transform.position = giftPOsition3;
 
-                yield return new WaitForSeconds(5f);
-                giftsDrop[2].SetActive(true);               // chrono = 15 secondes
-
-                yield return new WaitForSeconds(10f);
-                giftsDrop[3].SetActive(true);               // chrono = 20 secondes
-                giftsDrop[3].transform.position += new Vector3(4f, 0f, 0f);
+                yield return new WaitForSeconds(5f);       // chrono = 20 secondes [Dark gift]
+                giftsDrop[3].SetActive(true);               
+                giftsDrop[3].transform.position = giftPOsition2;
                 yield return new WaitForSeconds(3f);
                 giftsDrop[3].SetActive(false);
                 
-                yield return new WaitForSeconds(2f);
-                giftsDrop[4].SetActive(true);               // chrono = 30 secondes
+                yield return new WaitForSeconds(5f);        // chrono = 28 secondes [Gift 3/6]
+                giftsDrop[4].SetActive(true);
+                giftsDrop[4].transform.position = giftPOsition2;
 
-                yield return new WaitForSeconds(5f);
-                giftsDrop[5].SetActive(true);               // chrono = 35 secondes
+                yield return new WaitForSeconds(7f);        // chrono = 35 secondes [Gift 4/6]
+                giftsDrop[5].SetActive(true);
+                giftsDrop[5].transform.position = giftPOsition1;
                 
-                yield return new WaitForSeconds(10f);
-                giftsDrop[6].SetActive(true);               // chrono = 40 secondes
-                
+                yield return new WaitForSeconds(5f);        // chrono = 40 secondes [Bomb 2/3]
+                giftsDrop[6].SetActive(true);
+                giftsDrop[6].transform.position = giftPOsition2;
                 yield return new WaitForSeconds(3f);
                 giftsDrop[6].SetActive(false);
+                
+                yield return new WaitForSeconds(2f);        // chrono =  45 secondes [Gift 6/6] - Will be blocked
+                giftsDrop[7].SetActive(true);
+                giftsDrop[7].transform.position = giftPOsition1;
+                
+                yield return new WaitForSeconds(1f);       // chrono = 46 secondes [Bomb 3/3] - Chest Blocker
+                giftsDrop[8].SetActive(true);               
+                giftsDrop[8].transform.position = giftPOsition3;
+                yield return new WaitForSeconds(3f);
+                giftsDrop[8].SetActive(false);
+                
+                yield return new WaitForSeconds(5f);        // chrono =  54 secondes [Gift 6/6] - Will be blocked
+                giftsDrop[9].SetActive(true);
+                giftsDrop[9].transform.position = giftPOsition1;
                 
                 break;
             } 
