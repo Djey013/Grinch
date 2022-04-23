@@ -5174,6 +5174,8 @@ MonoBehaviour:
   leftPouchPosition: {x: 0.3, y: 0.7, z: 0}
   stealStatut: 0
   pickupSound: {fileID: 8300000, guid: 8e1a9f490ba096340900420de3ab5d4f, type: 3}
+  hitSound: {fileID: 8300000, guid: 696bebe2cb153c84dba2221cb33b60f9, type: 3}
+  closingChest: {fileID: 8300000, guid: e37d4873ef91ebf448e0289c8cd67181, type: 3}
 --- !u!61 &1653316574
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5250,7 +5252,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8e1a9f490ba096340900420de3ab5d4f, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
