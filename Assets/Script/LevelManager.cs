@@ -45,7 +45,7 @@ public class LevelManager : MonoBehaviour
             persistent.chested = 0;
             
             yield return new WaitForSeconds(3f);
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("End_Credits");
         }
         
     }

@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="49dbc689-43a0-48ff-ab2c-7e3df8ef29b0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bomb.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Bomb.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level01.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level02.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level02.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Grinch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Grinch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Gifts_Level_1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Gifts_Level_1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Gifts_Level_3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Gifts_Level_3.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/LevelManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,9 +20,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Transition_State.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,6 +79,7 @@
       <workItem from="1650611704591" duration="2178000" />
       <workItem from="1650614939199" duration="743000" />
       <workItem from="1650617710784" duration="14223000" />
+      <workItem from="1650699924881" duration="3133000" />
     </task>
     <servers />
   </component>
@@ -105,14 +109,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Script/Chest.cs</url>
           <line>36</line>
-          <properties documentPath="D:\JeremyVernagallo\Unity\Grinch\Assets\Script\Chest.cs" initialLine="34" containingFunctionPresentation="method 'OnTriggerEnter2D'">
-            <startOffsets>
-              <option value="635" />
-            </startOffsets>
-            <endOffsets>
-              <option value="700" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\JeremyVernagallo\Unity\Grinch\Assets\Script\Chest.cs" initialLine="34" containingFunctionPresentation="method 'OnTriggerEnter2D'" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

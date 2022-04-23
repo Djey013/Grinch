@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Gifts_Level_1 : MonoBehaviour
+public class Gifts_Level_2 : MonoBehaviour
 {
     public GameObject[] giftsDrop;
    
@@ -15,27 +15,36 @@ public class Gifts_Level_1 : MonoBehaviour
         {
             foreach(GameObject go in giftsDrop)
             {
-                yield return new WaitForSeconds(10f);
-                giftsDrop[0].SetActive(true);               // chrono = 10 secondes
+                yield return new WaitForSeconds(5f);
+                giftsDrop[0].SetActive(true);               // chrono = 5 secondes
+                yield return new WaitForSeconds(3f);
+                giftsDrop[0].SetActive(false);
                 
-                yield return new WaitForSeconds(5f);
-                giftsDrop[1].SetActive(true);               // chrono = 15 secondes
+                
+                yield return new WaitForSeconds(2f);
+                giftsDrop[1].SetActive(true);               // chrono = 10 secondes
 
                 yield return new WaitForSeconds(5f);
-                giftsDrop[2].SetActive(true);               // chrono = 20 secondes
+                giftsDrop[2].SetActive(true);               // chrono = 15 secondes
 
                 yield return new WaitForSeconds(10f);
-                giftsDrop[3].SetActive(true);               // chrono = 30 secondes
+                giftsDrop[3].SetActive(true);               // chrono = 20 secondes
+                giftsDrop[3].transform.position += new Vector3(4f, 0f, 0f);
+                yield return new WaitForSeconds(3f);
+                giftsDrop[3].SetActive(false);
+                
+                yield return new WaitForSeconds(2f);
+                giftsDrop[4].SetActive(true);               // chrono = 30 secondes
 
                 yield return new WaitForSeconds(5f);
-                giftsDrop[4].SetActive(true);               // chrono = 35 secondes
-
-                yield return new WaitForSeconds(5f);
-                giftsDrop[5].SetActive(true);               // chrono = 40 secondes
+                giftsDrop[5].SetActive(true);               // chrono = 35 secondes
                 
                 yield return new WaitForSeconds(10f);
-                giftsDrop[6].SetActive(true);               // chrono = 45 secondes
-
+                giftsDrop[6].SetActive(true);               // chrono = 40 secondes
+                
+                yield return new WaitForSeconds(3f);
+                giftsDrop[6].SetActive(false);
+                
                 break;
             } 
 
