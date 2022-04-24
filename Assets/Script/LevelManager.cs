@@ -54,9 +54,11 @@ public class LevelManager : MonoBehaviour
     {
         if (persistent.vie == 0)
         {
-            SceneManager.GetActiveScene();
+            SceneManager.LoadScene("End_Credits");
             persistent.chested = 0;
         }
+        
+        
 
     }
 

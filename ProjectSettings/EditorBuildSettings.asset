@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level02.unity
     guid: 2951a4913c991574a98aba29568146da
   - enabled: 1
+    path: Assets/Scenes/Happy_End_Credits.unity
+    guid: 14b533803a85c334bb05642041a0eae0
+  - enabled: 1
     path: Assets/Scenes/End_Credits.unity
     guid: daf1c3b4717ef3442b95696a512ce786
   m_configObjects:
