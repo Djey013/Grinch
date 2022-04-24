@@ -2,15 +2,38 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class Gifts_Level_2 : MonoBehaviour
 {
     public GameObject[] giftsDrop;
-    private Vector3 giftPOsition1 = new Vector3(-9f, 4f, 0f);
-    private Vector3 giftPOsition2 = new Vector3(-5f, 4f, 0f);
-    private Vector3 giftPOsition3 = new Vector3(0f, 4f, 0f);
+    public Vector3 giftPOsition1 = new Vector3(-9f, 4f, 0f);
+    public Vector3 giftPOsition2 = new Vector3(-5f, 4f, 0f);
+    public Vector3 giftPOsition3 = new Vector3(0f, 4f, 0f);
 
-   
+    private Color[] colors = new Color[4] {Color.green, Color.yellow, Color.red, Color.magenta};
+    private GameObject[] changingColors = new GameObject[10];
+
+    void ColorChange()
+    {
+        giftsDrop[0].GetComponent<SpriteRenderer>().color = colors[Random.Range(0, 4)];
+        
+        for (int i = 0; i < changingColors.Length; i++)
+        {
+            giftsDrop[i].GetComponent<SpriteRenderer>().color = colors[Random.Range(0, 4)];
+            
+        }
+    }
+
+    private void Update()
+    {
+        if (giftsDrop[0] != null)
+        {
+            ColorChange();
+        }
+        
+    }
+
     void Start()
     {
         StartCoroutine(DelayCoroutine());
@@ -22,6 +45,7 @@ public class Gifts_Level_2 : MonoBehaviour
                 yield return new WaitForSeconds(5f);        // chrono = 5 secondes [Bomb 1/3]
                 giftsDrop[0].SetActive(true);               
                 giftsDrop[0].transform.position = giftPOsition1;
+                ColorChange();
                 yield return new WaitForSeconds(4f);
                 giftsDrop[0].SetActive(false);
                 
