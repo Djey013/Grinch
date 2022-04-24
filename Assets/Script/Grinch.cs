@@ -112,7 +112,7 @@ public class Grinch : MonoBehaviour
                 timePenaltyMessage.SetActive(false);
             }
             
-            if (other.gameObject.CompareTag("Bomb") && !stealStatut)
+            if (other.gameObject.CompareTag("Bomb"))
             {
                 yield return new WaitForSeconds(0.2f);
                 persistent.vie--;

@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49dbc689-43a0-48ff-ab2c-7e3df8ef29b0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Grinch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/BG.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/BG.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Bomb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Bomb.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Chocolate house.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Chocolate house.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Crate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Crate.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Crystal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Crystal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Grinch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Grinch.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Horloge Noel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Horloge Noel.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/IceBox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/IceBox.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Igloo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Igloo.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Pink house.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Pink house.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Pouch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Pouch.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Santa + Sleigh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Santa + Sleigh.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Santa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Santa.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Santa_Harley.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Santa_Harley.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Sign_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Sign_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Sign_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Sign_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Snap7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Snap7.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/SnowMan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/SnowMan.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Snowed house.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Snowed house.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Stone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Stone.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Tree_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Tree_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Tree_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Tree_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/chrono.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/chrono.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/chronometre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/chronometre.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/dark_gift.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/dark_gift.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/present-gift-box-reward-bottom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/present-gift-box-reward-bottom.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/present-gift-box-reward-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/present-gift-box-reward-top.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/End_Credits.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/End_Credits.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Start_Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Start_Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/LevelManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-    </list>
+    <list default="true" id="49dbc689-43a0-48ff-ab2c-7e3df8ef29b0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +70,7 @@
       <workItem from="1650617710784" duration="14223000" />
       <workItem from="1650699924881" duration="18647000" />
       <workItem from="1650736546431" duration="6000" />
-      <workItem from="1650797846906" duration="307000" />
+      <workItem from="1650797846906" duration="936000" />
     </task>
     <servers />
   </component>
