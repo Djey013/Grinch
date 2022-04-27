@@ -29,7 +29,7 @@ public class Gifts_Level_2 : MonoBehaviour
     {
         if (giftsDrop[0] != null)
         {
-            ColorChange();
+            Invoke("ColorChange",2f);
         }
         
     }
