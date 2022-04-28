@@ -20,7 +20,9 @@ public class Gifts_Level_2 : MonoBehaviour
         
         for (int i = 0; i < changingColors.Length; i++)
         {
-            giftsDrop[i].GetComponent<SpriteRenderer>().color = colors[Random.Range(0, 4)];
+            giftsDrop[0].GetComponent<SpriteRenderer>().color = colors[Random.Range(0, 4)];
+            giftsDrop[6].GetComponent<SpriteRenderer>().color = colors[Random.Range(0, 4)];
+            giftsDrop[8].GetComponent<SpriteRenderer>().color = colors[Random.Range(0, 4)];
             
         }
     }
